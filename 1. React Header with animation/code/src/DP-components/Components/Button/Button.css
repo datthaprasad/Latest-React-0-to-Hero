@@ -1,0 +1,14 @@
+.btn {
+  border-radius: 50px;
+  width: 18rem;
+  height: 50px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}

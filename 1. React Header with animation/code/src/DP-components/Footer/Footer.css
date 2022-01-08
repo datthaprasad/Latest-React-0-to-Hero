@@ -1,0 +1,41 @@
+.footer {
+  height: 20vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+}
+
+.footer p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  display: block;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  top: 13%;
+}
+
+span {
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  letter-spacing: 0.1rem;
+  margin-left: 0px;
+}
+
+span p {
+  left: 0.3rem;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.margin-correction{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
