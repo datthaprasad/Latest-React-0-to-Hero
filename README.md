@@ -2,3 +2,5 @@
 Latest React Templates WIth Animation.
 Started: JAN 2022.
 This will contains all react templates with animation, which is done in the time of upgradiing react skills with css and sass.
+
+From chapter 2, i.e React main. I used sass insted of css.

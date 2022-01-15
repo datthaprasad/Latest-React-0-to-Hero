@@ -40,7 +40,18 @@
 }
 
 .button-fadeup{
+
     animation: button-fade-up 2s ease-in-out;
+}
+
+.button-fadeup:hover{
+  box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.589);
+  transform: translateY(-0.5em);
+}
+
+.button-fadeup:active{
+  box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.8);
+  transform: translateY(0.1em);
 }
 
 .header-title {

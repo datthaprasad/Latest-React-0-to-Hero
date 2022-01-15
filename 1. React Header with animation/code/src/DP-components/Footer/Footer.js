@@ -10,7 +10,7 @@ const Footer = () => {
         given in next folder. For any queries contact me.
       </p>
       <p className="margin-correction">#React-0-to-Hero By DP Shetty.</p>
-      <span>
+      <span className="footer-span">
         <img src={instagram} alt="" />
         <p>shetty_dp </p>
       </span>

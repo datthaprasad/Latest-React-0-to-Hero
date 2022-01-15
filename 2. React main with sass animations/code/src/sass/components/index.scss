@@ -1,0 +1,122 @@
+@import "../variables/variable";
+
+header {
+  width: 100vw;
+  height: calc(100vw / 10);
+  background-color: $header-color;
+  position: relative;
+
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.main {
+  width: 93.33vw;
+  height: 46.49vh;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3.7vh;
+
+  &__heading {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.6rem;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    margin-bottom: 3.8vh;
+    color: #000000;
+    background: black;
+    background-clip: text;
+    margin-bottom: 3.8rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__heading:hover {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    background-clip: text;
+  }
+
+  &__content {
+    width: 93.33vw;
+    height: 54.76vh;
+    background: rgba(61, 50, 50, 1);
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    &__text {
+      width: 40%;
+      height: 80%;
+      background-color: #f2e7e7;
+      padding: 2vh;
+      top: 2vh;
+      display: relative;
+
+      p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.8vh;
+        line-height: 2.1rem;
+        letter-spacing: 0.02em;
+        color: #000000;
+
+        span {
+          display: block;
+          text-align: left;
+          margin-bottom: 2vh;
+        }
+      }
+    }
+
+    &__image {
+      width: 45%;
+      height: 80%;
+      background-color: rgba(61, 50, 50, 1);
+      display: relative;
+
+      [class^="img-"] {
+        position: absolute;
+        width: 20vw;
+        outline-offset: 0.5rem;
+        outline: 0.5rem solid red;
+
+        img {
+          width: 95.5%;
+
+          &:hover {
+            transform: scale(1.12);
+            transition: transform 0.5s ease-in-out;
+          }
+        }
+      }
+
+      .img-1 {
+        margin-top: 13vh;
+        margin-left: 3vw;
+      }
+
+      .img-2 {
+        margin-left: 17vw;
+      }
+
+      .img-3 {
+        margin-left: 17vw;
+        margin-top: 26vh;
+      }
+    }
+  }
+}
