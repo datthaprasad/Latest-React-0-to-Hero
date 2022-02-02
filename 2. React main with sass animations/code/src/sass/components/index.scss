@@ -25,6 +25,7 @@ header {
   margin: 0 auto;
   text-align: center;
   margin-top: 3.7vh;
+  transition: all 0.5s ease-in-out;
 
   &__heading {
     font-family: "Roboto", sans-serif;
@@ -51,7 +52,8 @@ header {
     width: 93.33vw;
     height: 54.76vh;
     background: rgba(61, 50, 50, 1);
-    border-radius: 5rem;
+    border-top-right-radius: 5rem;
+    border-top-left-radius: 5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -117,6 +119,16 @@ header {
         margin-left: 17vw;
         margin-top: 26vh;
       }
+
+      &:hover [class^="img-"]:not(:hover) {
+        transform: scale(0.9);
+        transition: transform 0.5s ease-in-out;
+      }
     }
   }
+  .wave{
+    margin: 0 auto;
+    transform: rotate(180deg) translateY(1rem);
+  }
 }
+

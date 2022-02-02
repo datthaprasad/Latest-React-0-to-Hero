@@ -1,5 +1,6 @@
 import "./App.scss";
 import logo from "./img/beast.jpg";
+import Wave from "react-wavify";
 
 function App() {
   return (
@@ -54,6 +55,18 @@ function App() {
               <img src={logo} alt="react-logo-3" />
             </div>
           </div>
+        </div>
+        <div className="wave">
+          <Wave
+            fill="rgba(61, 50, 50, 1)"
+            paused={true}
+            options={{
+              height: 50,
+              amplitude: 50,
+              speed: 0.5,
+              points: 3,
+            }}
+          />
         </div>
       </main>
     </>
